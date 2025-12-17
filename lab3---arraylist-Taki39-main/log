@@ -1,0 +1,434 @@
+mi., 15 de feb. de 2023 12:35:23: 
+ tests:  0|6
+total_score: 0/70
+7964391
+Fri 31 Mar 2023 11:26:33 AM UTC: 
+ arraylist.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+ tests:  0|6
+total_score: 0/70
+f460e3d
+Fri 31 Mar 2023 11:30:22 AM UTC: 
+ arraylist.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+In file included from test.c:5:
+arraylist.c: In function ‘createList’:
+arraylist.c:18:19: error: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Werror=int-conversion]
+   18 |   nuevaLista.size = NULL;
+      |                   ^
+arraylist.c:15:13: error: variable ‘nuevaLista’ set but not used [-Werror=unused-but-set-variable]
+   15 |   ArrayList nuevaLista;
+      |             ^~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+d78fbf5
+Fri 31 Mar 2023 11:31:48 AM UTC: 
+ arraylist.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+arraylist.c: In function ‘createList’:
+arraylist.c:20:10: error: function returns address of local variable [-Werror=return-local-addr]
+   20 |   return &nuevaLista;
+      |          ^~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+b234502
+Fri 31 Mar 2023 11:32:01 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+arraylist.c: In function ‘createList’:
+arraylist.c:20:10: error: incompatible types when returning type ‘ArrayList’ {aka ‘struct ArrayList’} but ‘ArrayList *’ {aka ‘struct ArrayList *’} was expected
+   20 |   return nuevaLista;
+      |          ^~~~~~~~~~
+arraylist.c:21:1: error: control reaches end of non-void function [-Werror=return-type]
+   21 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+f8e432d
+Fri 31 Mar 2023 11:36:20 AM UTC: 
+ arraylist.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+ tests:  0|6
+total_score: 0/70
+93d5b76
+Fri 31 Mar 2023 11:37:43 AM UTC: 
+ arraylist.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+arraylist.c: In function ‘createList’:
+arraylist.c:16:10: error: unused variable ‘data’ [-Werror=unused-variable]
+   16 |   void **data = (void*) malloc (sizeof(void));
+      |          ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+e3ff221
+Fri 31 Mar 2023 11:37:56 AM UTC: 
+ arraylist.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+arraylist.c: In function ‘createList’:
+arraylist.c:18:10: error: unused variable ‘data’ [-Werror=unused-variable]
+   18 |   void **data = (void*) malloc (sizeof(void));
+      |          ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+a345e5a
+Fri 31 Mar 2023 11:38:28 AM UTC: 
+ arraylist.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+arraylist.c: In function ‘createList’:
+arraylist.c:16:3: error: ‘data’ undeclared (first use in this function)
+   16 |   data = (void*) malloc (sizeof(void));
+      |   ^~~~
+arraylist.c:16:3: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+081d261
+Fri 31 Mar 2023 11:38:43 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|6
+total_score: 0/70
+2a2db59
+Fri 31 Mar 2023 11:43:31 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|6
+total_score: 0/70
+b2efd4c
+Fri 31 Mar 2023 11:43:43 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|6
+total_score: 0/70
+95745cb
+Fri 31 Mar 2023 11:44:00 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+arraylist.c: In function ‘createList’:
+arraylist.c:19:20: error: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Werror=int-conversion]
+   19 |   nuevaLista->size = NULL;
+      |                    ^
+cc1: all warnings being treated as errors
+Compilation failed
+5c4327e
+Fri 31 Mar 2023 11:44:14 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|6
+total_score: 0/70
+579aa81
+Fri 31 Mar 2023 11:44:21 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|6
+total_score: 0/70
+d484b4a
+Fri 31 Mar 2023 11:46:35 AM UTC: 
+ arraylist.c | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+ tests:  0|6
+total_score: 0/70
+9cfaa3f
+Fri 31 Mar 2023 11:47:03 AM UTC: 
+ arraylist.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  0|6
+total_score: 0/70
+1d76620
+Fri 31 Mar 2023 11:52:11 AM UTC: 
+ arraylist.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+ tests:  1|5
+total_score: 10/70
+dccaca4
+Fri 31 Mar 2023 12:09:11 PM UTC: 
+ arraylist.c | 14 +++++++++++++-
+ 1 file changed, 13 insertions(+), 1 deletion(-)
+ tests:  1|5
+total_score: 10/70
+aecf6a4
+Fri 31 Mar 2023 12:24:18 PM UTC: 
+ arraylist.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+In file included from test.c:5:
+arraylist.c: In function ‘append’:
+arraylist.c:35:9: error: unused variable ‘i’ [-Werror=unused-variable]
+   35 |     int i = l->size-1;
+      |         ^
+cc1: all warnings being treated as errors
+Compilation failed
+1083342
+Fri 31 Mar 2023 12:24:29 PM UTC: 
+ arraylist.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  1|5
+total_score: 10/70
+f6930d2
+Fri 31 Mar 2023 12:25:02 PM UTC: 
+ arraylist.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  1|5
+total_score: 10/70
+cd91c21
+Fri 31 Mar 2023 12:25:14 PM UTC: 
+ arraylist.c | 2 ++
+ 1 file changed, 2 insertions(+)
+ tests:  0|0
+1d8f29d
+Fri 31 Mar 2023 12:26:28 PM UTC: 
+ arraylist.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+ tests:  2|5
+total_score: 15/70
+0cdefc8
+Fri 31 Mar 2023 12:27:46 PM UTC: 
+ arraylist.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  2|5
+total_score: 15/70
+7cb4bd9
+Fri 31 Mar 2023 12:28:03 PM UTC: 
+ arraylist.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  1|5
+total_score: 10/70
+5455c20
+Fri 31 Mar 2023 12:28:28 PM UTC: 
+ arraylist.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  2|5
+total_score: 15/70
+ff3aa57
+Fri 31 Mar 2023 12:28:42 PM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|5
+total_score: 15/70
+d40b110
+Fri 31 Mar 2023 10:55:11 PM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 20/70
+e8a8c1d
+Fri 31 Mar 2023 11:10:33 PM UTC: 
+ arraylist.c | 18 +++++++++++++++++-
+ 1 file changed, 17 insertions(+), 1 deletion(-)
+ tests:  0|0
+66a04d7
+Fri 31 Mar 2023 11:26:41 PM UTC: 
+ arraylist.c | 21 +++++++++++++--------
+ 1 file changed, 13 insertions(+), 8 deletions(-)
+ tests:  5|3
+total_score: 30/70
+99ef6a5
+Fri 31 Mar 2023 11:33:37 PM UTC: 
+ arraylist.c | 18 ++++++++++++++++--
+ 1 file changed, 16 insertions(+), 2 deletions(-)
+ tests:  6|3
+total_score: 30/70
+ca37e1d
+Fri 31 Mar 2023 11:34:02 PM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  5|3
+total_score: 30/70
+90eb332
+Fri 31 Mar 2023 11:34:14 PM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  6|3
+total_score: 30/70
+2fcd332
+Fri 31 Mar 2023 11:39:16 PM UTC: 
+ arraylist.c | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+ tests:  7|3
+total_score: 30/70
+424f1c9
+Fri 31 Mar 2023 11:41:49 PM UTC: 
+ arraylist.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  7|3
+total_score: 30/70
+c65c17f
+Fri 31 Mar 2023 11:46:37 PM UTC: 
+ arraylist.c | 9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+ tests:  8|2
+total_score: 40/70
+8e4aa0a
+Sun 02 Apr 2023 12:03:51 AM UTC: 
+ arraylist.c | 7 ++-----
+ 1 file changed, 2 insertions(+), 5 deletions(-)
+ tests:  0|0
+50c6505
+Sun 02 Apr 2023 01:52:44 AM UTC: 
+ arraylist.c | 5 +++++
+ 1 file changed, 5 insertions(+)
+ tests:  8|2
+total_score: 40/70
+2a63eea
+Sun 02 Apr 2023 01:54:45 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  7|2
+total_score: 40/70
+98a6d45
+Sun 02 Apr 2023 01:55:38 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  7|2
+total_score: 40/70
+d779bdb
+Sun 02 Apr 2023 01:56:03 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  8|2
+total_score: 40/70
+4776750
+Sun 02 Apr 2023 01:56:50 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  7|1
+   [ INFO ] llamando a get(-1)
+a3c58d6
+Sun 02 Apr 2023 01:57:45 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  8|2
+total_score: 40/70
+1e749f0
+Sun 02 Apr 2023 01:58:24 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  8|2
+total_score: 40/70
+b050de6
+Sun 02 Apr 2023 02:03:12 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  9|2
+total_score: 40/70
+8babe32
+Sun 02 Apr 2023 02:04:09 AM UTC: 
+ arraylist.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+ tests:  10|1
+total_score: 50/70
+b0b59c8
+Sun 02 Apr 2023 02:05:37 AM UTC: 
+ arraylist.c | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+ tests:  10|1
+total_score: 50/70
+b2c5361
+Sun 02 Apr 2023 02:07:54 AM UTC: 
+ arraylist.c | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+ tests:  0|0
+e9483c1
+Sun 02 Apr 2023 02:19:24 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+6ac372d
+Sun 02 Apr 2023 02:20:46 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+arraylist.c: In function ‘append’:
+arraylist.c:33:57: error: expected ‘)’ before ‘;’ token
+   33 |     l->data = realloc(l->data, sizeof((6*sizeof(void*)));
+      |                      ~                                  ^
+      |                                                         )
+arraylist.c:37:31: error: expected ‘;’ before ‘}’ token
+   37 |     l->data[l->size-1] = data;
+      |                               ^
+      |                               ;
+   38 |   }
+      |   ~                            
+Compilation failed
+b38a11a
+Sun 02 Apr 2023 02:21:03 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+9638ed6
+Sun 02 Apr 2023 02:21:17 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+2d9f9d5
+Sun 02 Apr 2023 02:22:30 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+da7f6e5
+Sun 02 Apr 2023 02:22:44 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+8aae1e6
+Sun 02 Apr 2023 02:23:02 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+9b0c45c
+Sun 02 Apr 2023 02:23:16 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+8afc5b0
+Sun 02 Apr 2023 02:23:26 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+c4784a5
+Sun 02 Apr 2023 02:26:12 AM UTC: 
+ arraylist.c | 7 ++-----
+ 1 file changed, 2 insertions(+), 5 deletions(-)
+ tests:  0|0
+f75dcc9
+Sun 02 Apr 2023 02:28:01 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+6835ae6
+Sun 02 Apr 2023 02:29:06 AM UTC: 
+ arraylist.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  0|0
+3cf218e
+Sun 02 Apr 2023 02:32:51 AM UTC: 
+ arraylist.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  0|0
+73fee5a
+Sun 02 Apr 2023 02:33:40 AM UTC: 
+ arraylist.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  0|0
+fc703d0
+Sun 02 Apr 2023 02:35:01 AM UTC: 
+ arraylist.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  10|2
+total_score: 50/70
+56de6e2
+Sun 02 Apr 2023 02:35:29 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  11|1
+total_score: 55/70
+f219d5f
+Sun 02 Apr 2023 02:35:48 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  16|0
+total_score: 70/70
+f61a1d5

@@ -1,0 +1,44 @@
+Thu 11 May 2023 09:40:52 PM UTC: 
+ tests:  0|4
+total_score: 0/70
+dc69282
+Thu 11 May 2023 10:00:00 PM UTC: 
+ heap.c | 11 ++++++++---
+ 1 file changed, 8 insertions(+), 3 deletions(-)
+ tests:  1|3
+total_score: 10/70
+0698ae0
+Thu 11 May 2023 10:02:09 PM UTC: 
+ heap.c | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+ tests:  2|2
+total_score: 20/70
+b0bffb0
+Thu 11 May 2023 10:07:01 PM UTC: 
+ heap.c | 16 +++++++++++++++-
+ 1 file changed, 15 insertions(+), 1 deletion(-)
+ tests:  3|2
+total_score: 25/70
+b71f567
+Thu 11 May 2023 10:14:57 PM UTC: 
+ heap.c | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+In file included from test.c:4:
+heap.c: In function ‘heap_push’:
+heap.c:51:20: error: array subscript is not an integer
+   51 |       pq->heapArray[index] = pq->heapArray[(i-1)/2];
+      |                    ^
+Compilation failed
+4ced12c
+Thu 11 May 2023 10:15:08 PM UTC: 
+ heap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  7|1
+total_score: 45/70
+a8c401c
+Thu 11 May 2023 10:34:37 PM UTC: 
+ heap.c | 42 +++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 41 insertions(+), 1 deletion(-)
+ tests:  8|0
+total_score: 70/70
+54ace61

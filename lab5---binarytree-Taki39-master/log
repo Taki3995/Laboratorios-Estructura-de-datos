@@ -1,0 +1,748 @@
+Thu 20 Apr 2023 09:44:21 PM UTC: 
+ tests:  1|8
+total_score: 0/70
+15a8432
+Fri 21 Apr 2023 01:10:04 AM UTC: 
+ treemap.c | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+In file included from test.c:4:
+test.c: In function ‘createTreeMap’:
+treemap.c:44:25: error: ‘new’ is used uninitialized [-Werror=uninitialized]
+   44 |   tree->lower_than = new->lower_than;
+      |                      ~~~^~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+15653d9
+Fri 21 Apr 2023 01:11:04 AM UTC: 
+ treemap.c | 6 +-----
+ 1 file changed, 1 insertion(+), 5 deletions(-)
+ tests:  1|8
+total_score: 0/70
+dab2c2d
+Fri 21 Apr 2023 01:11:17 AM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|7
+total_score: 5/70
+1c5810d
+Fri 21 Apr 2023 02:17:15 AM UTC: 
+ treemap.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+test.c: In function ‘insertTreeMap’:
+test.c:503:5: error: ‘main’ is normally a non-static function [-Werror=main]
+  503 | int main( int argc, char *argv[] ) {
+      |     ^~~~
+test.c:606:1: error: expected declaration or statement at end of input
+  606 | }
+      | ^
+At top level:
+test.c:503:5: error: ‘main’ defined but not used [-Werror=unused-function]
+  503 | int main( int argc, char *argv[] ) {
+      |     ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+5052845
+Fri 21 Apr 2023 02:18:09 AM UTC: 
+ treemap.c | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+ tests:  4|7
+total_score: 5/70
+af77089
+Fri 21 Apr 2023 02:27:54 AM UTC: 
+ treemap.c | 26 +++++++++++++++++++++++++-
+ 1 file changed, 25 insertions(+), 1 deletion(-)
+ tests:  4|7
+total_score: 5/70
+a031f23
+Fri 21 Apr 2023 01:02:11 PM UTC: 
+ treemap.c | 2 --
+ 1 file changed, 2 deletions(-)
+ tests:  4|7
+total_score: 5/70
+857809c
+Fri 21 Apr 2023 01:11:59 PM UTC: 
+ treemap.c | 38 ++++++++++++++++++++++++++++++++------
+ 1 file changed, 32 insertions(+), 6 deletions(-)
+ tests:  3|7
+total_score: 5/70
+0526acb
+Fri 21 Apr 2023 01:16:31 PM UTC: 
+ treemap.c | 7 ++-----
+ 1 file changed, 2 insertions(+), 5 deletions(-)
+ tests:  4|7
+total_score: 5/70
+f3c3ab1
+Fri 21 Apr 2023 01:17:05 PM UTC: 
+ treemap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  4|7
+total_score: 5/70
+c175036
+Fri 21 Apr 2023 01:17:36 PM UTC: 
+ treemap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  10|6
+total_score: 15/70
+fc9316b
+Fri 21 Apr 2023 01:31:28 PM UTC: 
+ treemap.c | 33 ++++++++++++++++++++++-----------
+ 1 file changed, 22 insertions(+), 11 deletions(-)
+In file included from test.c:4:
+test.c: In function ‘insertTreeMap’:
+treemap.c:51:15: error: ‘aux’ is used uninitialized [-Werror=uninitialized]
+   51 |   aux->parent = tree->root;
+      |   ~~~~~~~~~~~~^~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+ceafc6a
+Fri 21 Apr 2023 01:32:02 PM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  10|6
+total_score: 15/70
+8b71c9e
+Fri 21 Apr 2023 01:32:35 PM UTC: 
+ treemap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  10|6
+total_score: 15/70
+16b1b0a
+Sat 22 Apr 2023 09:29:29 PM UTC: 
+ treemap.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  10|6
+total_score: 15/70
+4a4b123
+Sat 22 Apr 2023 09:32:38 PM UTC: 
+ treemap.c | 15 +++++++--------
+ 1 file changed, 7 insertions(+), 8 deletions(-)
+ tests:  10|6
+total_score: 15/70
+b761e0f
+Sat 22 Apr 2023 09:35:12 PM UTC: 
+ treemap.c | 2 --
+ 1 file changed, 2 deletions(-)
+ tests:  10|6
+total_score: 15/70
+627258b
+Sat 22 Apr 2023 09:46:44 PM UTC: 
+ treemap.c | 34 +++++++++++++++++++---------------
+ 1 file changed, 19 insertions(+), 15 deletions(-)
+ tests:  10|6
+total_score: 15/70
+3969cea
+Sat 22 Apr 2023 09:49:28 PM UTC: 
+ treemap.c | 9 ++-------
+ 1 file changed, 2 insertions(+), 7 deletions(-)
+ tests:  0|0
+6091bde
+Sat 22 Apr 2023 09:53:29 PM UTC: 
+ treemap.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+ tests:  0|0
+669834f
+Sat 22 Apr 2023 09:57:11 PM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:
+treemap.c: In function ‘insertTreeMap’:
+treemap.c:59:16: error: ‘*auxParent.pair’ may be used uninitialized [-Werror=maybe-uninitialized]
+   59 |       auxParent->pair->key = tree->current->pair->key;
+      |       ~~~~~~~~~^~~~~~
+treemap.c:78:41: error: ‘*auxParent.pair’ may be used uninitialized [-Werror=maybe-uninitialized]
+   78 |   else if(tree->lower_than(key,auxParent->pair->key))
+      |                                ~~~~~~~~~^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+90a91a3
+Sat 22 Apr 2023 10:00:53 PM UTC: 
+ treemap.c | 50 +++++++++++++++++---------------------------------
+ 1 file changed, 17 insertions(+), 33 deletions(-)
+ tests:  10|6
+total_score: 15/70
+f0433f1
+Sat 22 Apr 2023 10:01:40 PM UTC: 
+ treemap.c | 16 ++++++++--------
+ 1 file changed, 8 insertions(+), 8 deletions(-)
+ tests:  10|6
+total_score: 15/70
+8ad0e53
+Sat 22 Apr 2023 10:04:45 PM UTC: 
+ treemap.c | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+ tests:  12|5
+total_score: 15/70
+8e6570b
+Sat 22 Apr 2023 10:05:04 PM UTC: 
+ treemap.c | 6 +-----
+ 1 file changed, 1 insertion(+), 5 deletions(-)
+In file included from test.c:4:
+treemap.c: In function ‘minimum’:
+treemap.c:77:1: error: control reaches end of non-void function [-Werror=return-type]
+   77 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+8507770
+Sat 22 Apr 2023 10:05:15 PM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  10|6
+total_score: 15/70
+a3ac20c
+Sat 22 Apr 2023 10:05:25 PM UTC: 
+ treemap.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+ tests:  12|5
+total_score: 15/70
+5d298de
+Sat 22 Apr 2023 10:13:37 PM UTC: 
+ treemap.c | 65 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 64 insertions(+), 1 deletion(-)
+In file included from test.c:4:
+treemap.c: In function ‘removeNode’:
+treemap.c:131:13: error: ‘TreeNode’ has no member named ‘key’
+  131 |         node->key = successor->key;
+      |             ^~
+treemap.c:131:30: error: ‘TreeNode’ has no member named ‘key’
+  131 |         node->key = successor->key;
+      |                              ^~
+treemap.c:138:32: error: implicit declaration of function ‘findParent’ [-Werror=implicit-function-declaration]
+  138 |             TreeNode* parent = findParent(tree->root, node);
+      |                                ^~~~~~~~~~
+treemap.c:138:32: error: initialization of ‘TreeNode *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+cc1: all warnings being treated as errors
+Compilation failed
+de810d1
+Sat 22 Apr 2023 10:23:37 PM UTC: 
+ treemap.c | 31 ++++++++++++++++++++++---------
+ 1 file changed, 22 insertions(+), 9 deletions(-)
+In file included from test.c:4:
+treemap.c: In function ‘removeNode’:
+treemap.c:135:32: error: ‘TreeNode’ has no member named ‘key’
+  135 |     node->pair->key = successor->key;
+      |                                ^~
+Compilation failed
+e71cbe6
+Sat 22 Apr 2023 10:26:13 PM UTC: 
+ treemap.c | 15 ++++++++-------
+ 1 file changed, 8 insertions(+), 7 deletions(-)
+ tests:  13|5
+total_score: 20/70
+e112f09
+Sat 22 Apr 2023 10:47:51 PM UTC: 
+ treemap.c | 27 +++++++++++++++++++++------
+ 1 file changed, 21 insertions(+), 6 deletions(-)
+ tests:  13|5
+total_score: 20/70
+a4997be
+Sat 22 Apr 2023 10:52:15 PM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  13|5
+total_score: 20/70
+66fe8ab
+Sat 22 Apr 2023 10:59:01 PM UTC: 
+ treemap.c | 16 +++++++++++++++-
+ 1 file changed, 15 insertions(+), 1 deletion(-)
+ tests:  13|5
+total_score: 20/70
+fc53743
+Sat 22 Apr 2023 11:01:21 PM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  13|5
+total_score: 20/70
+ce8d134
+Sat 22 Apr 2023 11:07:53 PM UTC: 
+ treemap.c | 21 ++++++++++++++++++++-
+ 1 file changed, 20 insertions(+), 1 deletion(-)
+In file included from test.c:4:
+treemap.c: In function ‘firstTreeMap’:
+treemap.c:252:24: error: expected expression before ‘)’ token
+  252 |     Pair *pair = (pair*)malloc(sizeof(Pair));
+      |                        ^
+treemap.c:253:21: error: ‘TreeNode’ has no member named ‘key’
+  253 |     pair->key = nodo->key;
+      |                     ^~
+treemap.c:254:23: error: ‘TreeNode’ has no member named ‘value’
+  254 |     pair->value = nodo->value;
+      |                       ^~
+Compilation failed
+d43c324
+Sat 22 Apr 2023 11:08:56 PM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:
+treemap.c: In function ‘firstTreeMap’:
+treemap.c:253:21: error: ‘TreeNode’ has no member named ‘key’
+  253 |     pair->key = nodo->key;
+      |                     ^~
+treemap.c:254:23: error: ‘TreeNode’ has no member named ‘value’
+  254 |     pair->value = nodo->value;
+      |                       ^~
+Compilation failed
+bb754b5
+Sat 22 Apr 2023 11:09:07 PM UTC: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  15|4
+total_score: 25/70
+77531bb
+Sat 22 Apr 2023 11:18:41 PM UTC: 
+ treemap.c | 28 ++++++++++++++++++++++++++--
+ 1 file changed, 26 insertions(+), 2 deletions(-)
+In file included from test.c:4:
+treemap.c: In function ‘nextTreeMap’:
+treemap.c:284:3: error: expected expression before ‘}’ token
+  284 |   }
+      |   ^
+treemap.c:287:1: error: control reaches end of non-void function [-Werror=return-type]
+  287 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+7d7031a
+Sat 22 Apr 2023 11:21:12 PM UTC: 
+ treemap.c | 16 +++++++++++++++-
+ 1 file changed, 15 insertions(+), 1 deletion(-)
+ tests:  17|4
+total_score: 30/70
+6aea283
+Sat 22 Apr 2023 11:26:09 PM UTC: 
+ treemap.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+ tests:  17|4
+total_score: 30/70
+e60f490
+Sun 23 Apr 2023 12:21:38 AM UTC: 
+ treemap.c | 34 +++-------------------------------
+ 1 file changed, 3 insertions(+), 31 deletions(-)
+In file included from test.c:4:
+treemap.c: In function ‘insertTreeMap’:
+treemap.c:54:15: error: ‘TreeMap’ has no member named ‘nodo’
+   54 |       if (tree->nodo == tree->current)
+      |               ^~
+treemap.c:61:32: error: ‘TreeNode’ has no member named ‘key’
+   61 |       if (tree->lower_than(nodo->key,tree->current->left))
+      |                                ^~
+treemap.c:50:14: error: variable ‘parent’ set but not used [-Werror=unused-but-set-variable]
+   50 |   TreeNode * parent= NULL;
+      |              ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+6997c57
+Sun 23 Apr 2023 12:22:18 AM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:
+treemap.c: In function ‘insertTreeMap’:
+treemap.c:54:15: error: ‘TreeNode’ has no member named ‘key’
+   54 |       if (nodo->key == tree->currentpair->key)
+      |               ^~
+treemap.c:54:30: error: ‘TreeMap’ has no member named ‘currentpair’; did you mean ‘current’?
+   54 |       if (nodo->key == tree->currentpair->key)
+      |                              ^~~~~~~~~~~
+      |                              current
+treemap.c:61:32: error: ‘TreeNode’ has no member named ‘key’
+   61 |       if (tree->lower_than(nodo->key,tree->current->left))
+      |                                ^~
+treemap.c:50:14: error: variable ‘parent’ set but not used [-Werror=unused-but-set-variable]
+   50 |   TreeNode * parent= NULL;
+      |              ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+043b66d
+Sun 23 Apr 2023 12:22:26 AM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:
+treemap.c: In function ‘insertTreeMap’:
+treemap.c:54:15: error: ‘TreeNode’ has no member named ‘key’
+   54 |       if (nodo->key == tree->current->pair->key)
+      |               ^~
+treemap.c:61:32: error: ‘TreeNode’ has no member named ‘key’
+   61 |       if (tree->lower_than(nodo->key,tree->current->left))
+      |                                ^~
+treemap.c:50:14: error: variable ‘parent’ set but not used [-Werror=unused-but-set-variable]
+   50 |   TreeNode * parent= NULL;
+      |              ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+27d0f3d
+Sun 23 Apr 2023 12:32:07 AM UTC: 
+ treemap.c | 26 +++++++++++++-------------
+ 1 file changed, 13 insertions(+), 13 deletions(-)
+In file included from test.c:4:
+treemap.c: In function ‘insertTreeMap’:
+treemap.c:51:3: error: expected identifier or ‘(’ before ‘while’
+   51 |   while (current != NULL)
+      |   ^~~~~
+treemap.c:70:10: error: ‘return’ with a value, in function returning void [-Werror=return-type]
+   70 |   return NULL;
+      |          ^~~~
+treemap.c:46:6: note: declared here
+   46 | void insertTreeMap(TreeMap * tree, void* key, void * value)
+      |      ^~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+eabb5d2
+Sun 23 Apr 2023 12:32:32 AM UTC: 
+ treemap.c | 1 -
+ 1 file changed, 1 deletion(-)
+In file included from test.c:4:
+treemap.c: In function ‘insertTreeMap’:
+treemap.c:51:3: error: expected identifier or ‘(’ before ‘while’
+   51 |   while (current != NULL)
+      |   ^~~~~
+Compilation failed
+08b5ff5
+Sun 23 Apr 2023 12:34:07 AM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:
+treemap.c: In function ‘insertTreeMap’:
+treemap.c:56:21: error: ‘return’ with a value, in function returning void [-Werror=return-type]
+   56 |       return current->pair;
+      |              ~~~~~~~^~~~~~
+treemap.c:46:6: note: declared here
+   46 | void insertTreeMap(TreeMap * tree, void* key, void * value)
+      |      ^~~~~~~~~~~~~
+treemap.c:49:13: error: unused variable ‘parent’ [-Werror=unused-variable]
+   49 |   TreeNode* parent = NULL;
+      |             ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+132482a
+Sun 23 Apr 2023 12:38:16 AM UTC: 
+ treemap.c | 12 +++++++-----
+ 1 file changed, 7 insertions(+), 5 deletions(-)
+In file included from test.c:4:
+treemap.c: In function ‘insertTreeMap’:
+treemap.c:53:22: error: passing argument 1 of ‘is_equal’ from incompatible pointer type [-Werror=incompatible-pointer-types]
+   53 |     if (is_equal(tree->current, key) == 1)
+      |                  ~~~~^~~~~~~~~
+      |                      |
+      |                      TreeNode *
+treemap.c:22:23: note: expected ‘TreeMap *’ but argument is of type ‘TreeNode *’
+   22 | int is_equal(TreeMap* tree, void* key1, void* key2){
+      |              ~~~~~~~~~^~~~
+treemap.c:53:9: error: too few arguments to function ‘is_equal’
+   53 |     if (is_equal(tree->current, key) == 1)
+      |         ^~~~~~~~
+treemap.c:22:5: note: declared here
+   22 | int is_equal(TreeMap* tree, void* key1, void* key2){
+      |     ^~~~~~~~
+treemap.c:58:27: error: expected ‘;’ before ‘else’
+   58 |     parent = tree->current
+      |                           ^
+      |                           ;
+   59 | 
+   60 |     else if (tree->lower_than(key, current->pair->key))
+      |     ~~~~                   
+treemap.c:71:19: error: ‘current’ undeclared (first use in this function)
+   71 |   tree->current = current;
+      |                   ^~~~~~~
+treemap.c:71:19: note: each undeclared identifier is reported only once for each function it appears in
+treemap.c:49:13: error: variable ‘parent’ set but not used [-Werror=unused-but-set-variable]
+   49 |   TreeNode* parent = NULL;
+      |             ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+93a6a65
+Sun 23 Apr 2023 12:40:56 AM UTC: 
+ treemap.c | 6 ++----
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+In file included from test.c:4:
+treemap.c: In function ‘insertTreeMap’:
+treemap.c:53:9: error: too few arguments to function ‘is_equal’
+   53 |     if (is_equal(tree->current->pair->key, key) == 1)
+      |         ^~~~~~~~
+treemap.c:22:5: note: declared here
+   22 | int is_equal(TreeMap* tree, void* key1, void* key2){
+      |     ^~~~~~~~
+treemap.c:58:27: error: expected ‘;’ before ‘if’
+   58 |     parent = tree->current
+      |                           ^
+      |                           ;
+   59 | 
+   60 |     if (tree->lower_than(key, tree->current->pair->key))
+      |     ~~                     
+treemap.c:49:13: error: variable ‘parent’ set but not used [-Werror=unused-but-set-variable]
+   49 |   TreeNode* parent = NULL;
+      |             ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+ae5de03
+Sun 23 Apr 2023 12:41:09 AM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:
+treemap.c: In function ‘insertTreeMap’:
+treemap.c:53:9: error: too few arguments to function ‘is_equal’
+   53 |     if (is_equal(tree->current->pair->key, key) == 1)
+      |         ^~~~~~~~
+treemap.c:22:5: note: declared here
+   22 | int is_equal(TreeMap* tree, void* key1, void* key2){
+      |     ^~~~~~~~
+treemap.c:58:5: error: ‘parent’ undeclared (first use in this function)
+   58 |     parent = tree->current
+      |     ^~~~~~
+treemap.c:58:5: note: each undeclared identifier is reported only once for each function it appears in
+treemap.c:58:27: error: expected ‘;’ before ‘if’
+   58 |     parent = tree->current
+      |                           ^
+      |                           ;
+   59 | 
+   60 |     if (tree->lower_than(key, tree->current->pair->key))
+      |     ~~                     
+Compilation failed
+ea8991f
+Sun 23 Apr 2023 12:41:34 AM UTC: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:4:
+treemap.c: In function ‘insertTreeMap’:
+treemap.c:53:9: error: too few arguments to function ‘is_equal’
+   53 |     if (is_equal(tree->current->pair->key, key) == 1)
+      |         ^~~~~~~~
+treemap.c:22:5: note: declared here
+   22 | int is_equal(TreeMap* tree, void* key1, void* key2){
+      |     ^~~~~~~~
+treemap.c:62:7: error: ‘current’ undeclared (first use in this function)
+   62 |       current = current->left;
+      |       ^~~~~~~
+treemap.c:62:7: note: each undeclared identifier is reported only once for each function it appears in
+treemap.c:49:13: error: variable ‘parent’ set but not used [-Werror=unused-but-set-variable]
+   49 |   TreeNode* parent = NULL;
+      |             ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+32e88a8
+Sun 23 Apr 2023 12:41:57 AM UTC: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:4:
+treemap.c: In function ‘insertTreeMap’:
+treemap.c:53:9: error: too few arguments to function ‘is_equal’
+   53 |     if (is_equal(tree->current->pair->key, key) == 1)
+      |         ^~~~~~~~
+treemap.c:22:5: note: declared here
+   22 | int is_equal(TreeMap* tree, void* key1, void* key2){
+      |     ^~~~~~~~
+treemap.c:67:23: error: ‘tere’ undeclared (first use in this function); did you mean ‘tree’?
+   67 |       tree->current = tere->current->right;
+      |                       ^~~~
+      |                       tree
+treemap.c:67:23: note: each undeclared identifier is reported only once for each function it appears in
+treemap.c:49:13: error: variable ‘parent’ set but not used [-Werror=unused-but-set-variable]
+   49 |   TreeNode* parent = NULL;
+      |             ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+8be773c
+Sun 23 Apr 2023 12:42:07 AM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:
+treemap.c: In function ‘insertTreeMap’:
+treemap.c:53:9: error: too few arguments to function ‘is_equal’
+   53 |     if (is_equal(tree->current->pair->key, key) == 1)
+      |         ^~~~~~~~
+treemap.c:22:5: note: declared here
+   22 | int is_equal(TreeMap* tree, void* key1, void* key2){
+      |     ^~~~~~~~
+treemap.c:49:13: error: variable ‘parent’ set but not used [-Werror=unused-but-set-variable]
+   49 |   TreeNode* parent = NULL;
+      |             ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+2ec2cfa
+Sun 23 Apr 2023 12:42:36 AM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:
+treemap.c: In function ‘insertTreeMap’:
+treemap.c:49:13: error: variable ‘parent’ set but not used [-Werror=unused-but-set-variable]
+   49 |   TreeNode* parent = NULL;
+      |             ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+d5d4d04
+Sun 23 Apr 2023 12:42:59 AM UTC: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  18|4
+total_score: 30/70
+3f9fdf1
+Sun 23 Apr 2023 12:46:07 AM UTC: 
+ treemap.c | 18 +++++++++++++++---
+ 1 file changed, 15 insertions(+), 3 deletions(-)
+ tests:  19|4
+total_score: 30/70
+fbfc5c5
+Sun 23 Apr 2023 12:47:18 AM UTC: 
+ treemap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  19|4
+total_score: 30/70
+cc4d615
+Sun 23 Apr 2023 12:50:01 AM UTC: 
+ treemap.c | 3 +++
+ 1 file changed, 3 insertions(+)
+ tests:  20|3
+total_score: 40/70
+45cf727
+Sun 23 Apr 2023 12:51:39 AM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  20|3
+total_score: 40/70
+af9625c
+Sun 23 Apr 2023 01:24:55 AM UTC: 
+ treemap.c | 45 ++++++++++++++++++++++++---------------------
+ 1 file changed, 24 insertions(+), 21 deletions(-)
+ tests:  0|0
+81f0823
+Sun 23 Apr 2023 01:26:48 AM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+9015847
+Sun 23 Apr 2023 01:30:01 AM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+40cb6fb
+Sun 23 Apr 2023 01:30:54 AM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+1dbae29
+Sun 23 Apr 2023 01:34:47 AM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+2abea31
+Sun 23 Apr 2023 01:35:25 AM UTC: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  0|0
+8ee3d74
+Sun 23 Apr 2023 01:36:15 AM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+212f636
+Sun 23 Apr 2023 01:36:50 AM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+173df3a
+Sun 23 Apr 2023 01:45:10 AM UTC: 
+ treemap.c | 37 ++++++++++++++++++++++++++++---------
+ 1 file changed, 28 insertions(+), 9 deletions(-)
+In file included from test.c:4:
+treemap.c: In function ‘removeNode’:
+treemap.c:152:46: error: passing argument 1 of ‘EncontrarParent’ from incompatible pointer type [-Werror=incompatible-pointer-types]
+  152 |       TreeNode* parent = EncontrarParent(tree->root, node->pair->key);
+      |                                          ~~~~^~~~~~
+      |                                              |
+      |                                              TreeNode *
+treemap.c:100:37: note: expected ‘TreeMap *’ but argument is of type ‘TreeNode *’
+  100 | TreeNode* EncontrarParent(TreeMap * tree, TreeNode* node)
+      |                           ~~~~~~~~~~^~~~
+treemap.c:184:47: error: passing argument 1 of ‘EncontrarParent’ from incompatible pointer type [-Werror=incompatible-pointer-types]
+  184 |       TreeNode * parent = EncontrarParent(tree->root, node->pair->key);
+      |                                           ~~~~^~~~~~
+      |                                               |
+      |                                               TreeNode *
+treemap.c:100:37: note: expected ‘TreeMap *’ but argument is of type ‘TreeNode *’
+  100 | TreeNode* EncontrarParent(TreeMap * tree, TreeNode* node)
+      |                           ~~~~~~~~~~^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+f5abe68
+Sun 23 Apr 2023 01:46:05 AM UTC: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  0|0
+dd2db69
+Sun 23 Apr 2023 01:47:00 AM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+f07ca64
+Sun 23 Apr 2023 01:48:33 AM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+797cd02
+Sun 23 Apr 2023 01:48:52 AM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+1961f90
+Sun 23 Apr 2023 01:50:07 AM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  20|3
+total_score: 40/70
+429bc31
+Sun 23 Apr 2023 03:39:07 AM UTC: 
+ tests:  20|3
+total_score: 40/70
+48e0663
+Sun 23 Apr 2023 03:41:32 AM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  20|3
+total_score: 40/70
+8b63d45
+Sun 23 Apr 2023 03:53:53 AM UTC: 
+ treemap.c | 40 +++++++++++++++++-----------------------
+ 1 file changed, 17 insertions(+), 23 deletions(-)
+ tests:  18|3
+total_score: 35/70
+d8110ee
+Sun 23 Apr 2023 03:55:07 AM UTC: 
+ treemap.c | 37 ++++++++++++++++++++-----------------
+ 1 file changed, 20 insertions(+), 17 deletions(-)
+test.c: In function ‘nextTreeMap’:
+test.c:503:5: error: ‘main’ is normally a non-static function [-Werror=main]
+  503 | int main( int argc, char *argv[] ) {
+      |     ^~~~
+test.c:606:1: error: expected declaration or statement at end of input
+  606 | }
+      | ^
+At top level:
+test.c:503:5: error: ‘main’ defined but not used [-Werror=unused-function]
+  503 | int main( int argc, char *argv[] ) {
+      |     ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+ea74e9c
+Sun 23 Apr 2023 03:55:19 AM UTC: 
+ treemap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  20|3
+total_score: 40/70
+7eab1e0
+Sun 23 Apr 2023 04:01:13 AM UTC: 
+ treemap.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+ tests:  20|3
+total_score: 40/70
+d5d0458
+Sun 23 Apr 2023 04:03:47 AM UTC: 
+ treemap.c | 11 ++++++++---
+ 1 file changed, 8 insertions(+), 3 deletions(-)
+ tests:  20|3
+total_score: 40/70
+97d5e9b
+Sun 23 Apr 2023 04:04:15 AM UTC: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  20|3
+total_score: 40/70
+46a3b68

@@ -1,0 +1,276 @@
+Thu 04 May 2023 01:48:28 PM UTC: 
+ tests:  0|5
+total_score: 0/70
+07333b1
+Thu 04 May 2023 02:49:10 PM UTC: 
+ sudoku.c | 20 +++++++++++++++++++-
+ 1 file changed, 19 insertions(+), 1 deletion(-)
+ tests:  0|5
+total_score: 0/70
+79f57f1
+Thu 04 May 2023 02:49:34 PM UTC: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|4
+total_score: 15/70
+7814628
+Thu 04 May 2023 03:33:04 PM UTC: 
+ sudoku.c | 24 +++++++++++++++++++++---
+ 1 file changed, 21 insertions(+), 3 deletions(-)
+In file included from test.c:5:
+sudoku.c: In function ‘is_valid’:
+sudoku.c:55:9: error: unused variable ‘j’ [-Werror=unused-variable]
+   55 |   int i,j;
+      |         ^
+sudoku.c: In function ‘iniciarArray’:
+sudoku.c:50:15: error: array subscript 10 is outside array bounds of ‘int[10]’ [-Werror=array-bounds]
+   50 |   return array[10];
+      |          ~~~~~^~~~
+sudoku.c:46:22: note: while referencing ‘array’
+   46 | int iniciarArray(int array[10])
+      |                  ~~~~^~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+f19d5fe
+Thu 04 May 2023 03:37:10 PM UTC: 
+ sudoku.c | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+In file included from test.c:5:
+sudoku.c: In function ‘iniciarArray’:
+sudoku.c:50:15: error: array subscript 10 is outside array bounds of ‘int[10]’ [-Werror=array-bounds]
+   50 |   return array[10];
+      |          ~~~~~^~~~
+sudoku.c:46:22: note: while referencing ‘array’
+   46 | int iniciarArray(int array[10])
+      |                  ~~~~^~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+14416d5
+Thu 04 May 2023 03:37:23 PM UTC: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+sudoku.c: In function ‘iniciarArray’:
+sudoku.c:50:10: error: returning ‘int *’ from a function with return type ‘int’ makes integer from pointer without a cast [-Werror=int-conversion]
+   50 |   return array;
+      |          ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+ef50167
+Thu 04 May 2023 03:37:33 PM UTC: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|4
+total_score: 15/70
+794c82d
+Fri 05 May 2023 12:23:28 PM UTC: 
+ sudoku.c | 24 ++++++++++++++----------
+ 1 file changed, 14 insertions(+), 10 deletions(-)
+In file included from test.c:5:
+sudoku.c: In function ‘is_valid’:
+sudoku.c:56:34: error: unused variable ‘subMatriz’ [-Werror=unused-variable]
+   56 |   int filas[10] , columnas[10] , subMatriz[10];
+      |                                  ^~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+f729f06
+Fri 05 May 2023 12:32:43 PM UTC: 
+ sudoku.c | 23 +++++++++++++++++++++++
+ 1 file changed, 23 insertions(+)
+In file included from test.c:5:
+sudoku.c: In function ‘is_valid’:
+sudoku.c:88:35: error: array subscript 9 is above array bounds of ‘int[9]’ [-Werror=array-bounds]
+   88 |               int num = n->sudo[i][j];
+      |                         ~~~~~~~~~~^~~
+sudoku.c:7:8: note: while referencing ‘sudo’
+    7 |    int sudo[9][9];
+      |        ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+6807c1b
+Fri 05 May 2023 12:34:51 PM UTC: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  5|3
+total_score: 35/70
+7cbcc4a
+Fri 05 May 2023 12:42:27 PM UTC: 
+ sudoku.c | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+ tests:  0|0
+9d4a517
+Fri 05 May 2023 12:42:51 PM UTC: 
+ sudoku.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+ tests:  5|3
+total_score: 35/70
+38a4f71
+Fri 05 May 2023 12:45:19 PM UTC: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  5|3
+total_score: 35/70
+2993a3e
+Sat 06 May 2023 04:31:22 PM UTC: 
+ sudoku.c | 11 ++++++++++-
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+ tests:  6|2
+total_score: 45/70
+8cefd39
+Sat 06 May 2023 04:36:17 PM UTC: 
+ sudoku.c | 11 ++++++-----
+ 1 file changed, 6 insertions(+), 5 deletions(-)
+ tests:  6|2
+total_score: 45/70
+39cb259
+Sat 06 May 2023 04:39:01 PM UTC: 
+ sudoku.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  7|1
+total_score: 55/70
+4cd208f
+Sat 06 May 2023 11:44:39 PM UTC: 
+ sudoku.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+ tests:  7|1
+total_score: 55/70
+f0e945d
+Sun 07 May 2023 12:26:53 AM UTC: 
+ sudoku.c | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+In file included from test.c:5:
+sudoku.c: In function ‘DFS’:
+sudoku.c:157:17: error: void value not ignored as it ought to be
+  157 |       Node* n = pop(stack);
+      |                 ^~~
+sudoku.c:160:10: error: ‘is_f’ undeclared (first use in this function)
+  160 |       if(is_f)
+      |          ^~~~
+sudoku.c:160:10: note: each undeclared identifier is reported only once for each function it appears in
+sudoku.c:162:5: error: expected expression before ‘}’ token
+  162 |     }
+      |     ^
+sudoku.c:157:13: error: unused variable ‘n’ [-Werror=unused-variable]
+  157 |       Node* n = pop(stack);
+      |             ^
+cc1: all warnings being treated as errors
+Compilation failed
+57ec0c7
+Sun 07 May 2023 01:15:36 AM UTC: 
+ sudoku.c | 18 ++++++++++++++++--
+ 1 file changed, 16 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+sudoku.c: In function ‘DFS’:
+sudoku.c:157:15: error: void value not ignored as it ought to be
+  157 |     Node* n = pop(stack);
+      |               ^~~
+sudoku.c:174:19: error: expected ‘)’ before ‘;’ token
+  174 |     free(adj_nodes;)
+      |         ~         ^
+      |                   )
+sudoku.c:174:21: error: expected ‘;’ before ‘}’ token
+  174 |     free(adj_nodes;)
+      |                     ^
+      |                     ;
+  175 |   }
+      |   ~                  
+Compilation failed
+22bbdfa
+Sun 07 May 2023 01:15:46 AM UTC: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+sudoku.c: In function ‘DFS’:
+sudoku.c:157:15: error: void value not ignored as it ought to be
+  157 |     Node* n = pop(stack);
+      |               ^~~
+Compilation failed
+e35f9a2
+Sun 07 May 2023 01:17:46 AM UTC: 
+ sudoku.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+sudoku.c: In function ‘DFS’:
+sudoku.c:157:15: error: void value not ignored as it ought to be
+  157 |     Node* n = pop(stack);
+      |               ^~~
+Compilation failed
+bf08df2
+Sun 07 May 2023 01:32:35 AM UTC: 
+ sudoku.c | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+ tests:  8|1
+total_score: 60/70
+f2bfcd1
+Sun 07 May 2023 01:33:11 AM UTC: 
+ sudoku.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+ tests:  8|1
+total_score: 60/70
+a055b70
+Sun 07 May 2023 01:40:03 AM UTC: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  7|1
+total_score: 55/70
+05b3704
+Sun 07 May 2023 01:40:16 AM UTC: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  8|1
+total_score: 60/70
+f8607a9
+Sun 07 May 2023 01:42:57 AM UTC: 
+ sudoku.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  7|1
+total_score: 55/70
+a27bf77
+Sun 07 May 2023 01:43:08 AM UTC: 
+ sudoku.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  8|1
+total_score: 60/70
+381ab9b
+Sun 07 May 2023 01:45:08 AM UTC: 
+ sudoku.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  8|1
+total_score: 60/70
+217c1dd
+Sun 07 May 2023 01:47:14 AM UTC: 
+ sudoku.c | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+ tests:  7|1
+total_score: 55/70
+d2568f0
+Sun 07 May 2023 01:47:35 AM UTC: 
+ sudoku.c | 8 --------
+ 1 file changed, 8 deletions(-)
+ tests:  8|1
+total_score: 60/70
+eb10317
+Sun 07 May 2023 01:49:52 AM UTC: 
+ sudoku.c | 6 ++++++
+ 1 file changed, 6 insertions(+)
+ tests:  8|1
+total_score: 60/70
+2895d70
+Sun 07 May 2023 01:54:00 AM UTC: 
+ sudoku.c | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+ tests:  7|1
+total_score: 55/70
+5adede7
+Sun 07 May 2023 01:54:09 AM UTC: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  7|1
+total_score: 55/70
+4564537
+Sun 07 May 2023 01:56:26 AM UTC: 
+ sudoku.c | 8 --------
+ 1 file changed, 8 deletions(-)
+ tests:  8|1
+total_score: 60/70
+76b7cdc
